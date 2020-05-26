@@ -13,16 +13,14 @@ div.navbar-header{
   border-radius: 0;
   border: 0;
 }
-a.navbar-brand:hover{
-text-decoration: none;
-    text-shadow: 1px 1px 1px #fe9797;
-}
+
 .nav li a{
 padding-top: 15px;
 padding-bottom: 20px;
 }
-.nav li a:hover{
-  background-color: #fce29e;
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color:white;
 }
 ul{
   padding-left: 20px;
@@ -65,16 +63,12 @@ section{
    font-weight: bolder;
    color: black;
 }
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color:#fce29e;
-}
+
 .navbar-inverse .navbar-nav>li>a {
     color: black;
     font-size: 20px;
 }
-.navbar-inverse .navbar-nav>li>a:hover{
-  background-color: white;
-}
+
 #mk{
  text-align: center;
  padding-bottom: 50px;
