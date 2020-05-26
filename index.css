@@ -19,7 +19,7 @@ padding-bottom: 20px;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
    
-    background-color:white;
+    color:black;
 }
 ul{
   padding-left: 20px;
